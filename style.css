@@ -1,0 +1,193 @@
+html {
+    margin: auto;
+    padding: auto;
+    box-sizing: border-box;
+    width: 95%;
+}
+/*******************HEADER*************/
+header ul li {
+    display: inline-block;
+   padding-top: 20px;
+}
+header ul {
+    margin: 10 0 20px;
+}
+header a {
+    text-decoration: none;
+    color: gainsboro;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+header >a {
+    border: 2px solid transparent;
+    background-color: rgb(254,215,7);
+    border-radius: 30px;
+    color: rgb(35,37,42);
+    height: 50%;
+    padding: 5px;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+header {
+  background-color: grey;
+  display: flex;
+  justify-content: space-between;
+  padding-right: 20px;
+  width: 100%;
+}
+header h2 {
+    color: aliceblue;
+}
+
+/***************************MAIN*************/
+/************** BEN PHOTO *******************/
+MAIN {
+    background-color: #fff;
+    width: 100%;
+    margin-top: 30px;
+}
+.benphoto img {
+    width: 30%;
+    margin-right: 50px;
+    position: relative;
+    clear: both;
+}
+.benphoto h2 {
+    border: 2px solid transparent;
+    padding:5px;
+    background-color: black;
+    color: #fff;
+    border-radius: 30px;
+    text-align: center;
+}
+.benphoto h3 {
+    border: 2px solid transparent;
+    padding: 5px;
+    background-color: rgb(254,215,7);
+    color: black;
+    border-radius: 30px;
+    text-align: center;
+    font-size: larger;
+    margin: 0;
+}
+.titles {
+   display: flex;
+   float: right;
+   flex-flow: column wrap;
+   margin-right: 400px;
+   margin-top: 150px;
+}
+/********************* THIS IS BEN ********************/ 
+table {
+    border-spacing: 5px;
+    font-size: 3vh;
+}
+ td span {
+   font-weight: bold;
+   padding-right: 60px;
+}
+.benworking img {
+    float: right;
+    width: 25%;
+}
+.benworking p {
+    font-size: 2.5vh;
+}
+.benworking {
+   padding-bottom: 50px;
+}
+
+/***********************3 paragraphs ******************/
+.paragraphs {
+    display: flex;
+    gap: 10px;
+    justify-content: space-evenly;
+    padding-bottom: 150px;
+}
+.paragraphs p {
+    color: gray;
+    line-height: 2rem;
+}
+/*******************what people say ********************/
+.what {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+.whatcontainer img {
+    border-radius: 50%;
+    width: 30%;
+}
+.whatcontainer {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: rgb(242, 237, 237);
+    width: 100%;
+}
+.whatcontainer h2 {
+    text-align: center;
+}
+/**********************FAQ************************/
+.faq h3 {
+    background-color: rgb(242, 237, 237);
+    padding:10px;
+    display: block;
+    border: 1px solid gainsboro;
+    margin: 0;
+}
+.faq h4 {
+    padding-top: 20px;
+    padding-bottom: 30px;
+    padding-left: 10px;
+    color:rgb(116, 110, 110); 
+    border: 1px solid gainsboro;
+    margin: 0;
+}
+.faq h5 {
+    padding: 10px;
+}
+/*********************LAST ONE***************/
+input[type=text] {
+    padding: 10px 60px;
+    display: block;
+    width: 40%;
+    border-bottom: 1px solid gray;
+    border-radius: 4px;
+}
+input[type=submit] {
+    width: 30%;
+    margin-top: 30px;
+    background-color: rgb(254,215,7);
+    border-radius: 30px;
+    padding: 10px;
+}
+.form {
+    position: absolute;
+}
+.hello {
+float: right;
+position: relative;
+margin-right: 400px;
+}
+.hello i {
+    color: gray;
+    padding: 10px;
+}
+.gray {
+    color: gray;
+}
+/***************************Responsive**************/
+/* .what {
+    display: flex;
+    justify-content: space-around;
+    margin: 30px;
+    gap: 20px;
+} */
+@media screen and (max-width:900px) {
+    .paragraphs, .what {
+        flex-wrap: wrap;
+}
+.hello {
+    margin-top: 180px;
+}
+}
